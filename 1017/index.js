@@ -4,8 +4,7 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 
-
-})
+});
 
 rl.question("Digite o tempo gasto em horas da viagem: ", (tempoGastoViagem) => {
     rl.question("Digite a velocidade média em Km/h: ", (velocidadeMedia)=>{
