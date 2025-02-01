@@ -13,6 +13,7 @@ rl.question('Digite três valores de ponto flutuante (double) A, B, C separados 
      
     // o A === 0 verifica se A é zero.
     // o B**2-4*A*C < 0 verifica se o discriminante da equação é negativo.
+    //condição IF e ELSE
     if (A === 0 || B**2 -4*A*C < 0) {
         console.log('Impossível calcular.');
     } else {
@@ -22,6 +23,6 @@ rl.question('Digite três valores de ponto flutuante (double) A, B, C separados 
         console.log(`R1 = ${R1.toFixed(5)}`);
             console.log (`R2 = ${R2.toFixed(5)}`);
     }
-
+// fechamento...
             rl.close();
         });
